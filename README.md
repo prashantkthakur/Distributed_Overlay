@@ -1,5 +1,8 @@
 # Distributed_Systems
 
+## Build project
+`gradle build`
+
 ## Start Master (Registry) Node:
 `java cs455.overlay.node.Registry portnum`
 
