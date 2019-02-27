@@ -30,10 +30,11 @@ Send messages to random messaging nodes.
 
 `java cs455.overlay.node.MessagingNode registry-host registry-port`
 
-print-shortest-path   
+### Commands available:
+#### print-shortest-path   
 This  should  print  the  shortest  paths  that  have  been  computed  to  all  other  the  messaging  nodes  within the system. The listing should also indicate weights associated with the links. e.g.  carrot–-8––broccoli––4––-zucchini––-2––brussels––1––onionexit-overlayThis  allows  a  messaging  node  to  exit  the  overlay.  The  messaging  node  should  first  send  a  deregistration  message  to  the  registry  and  await  a  response  before  exiting  and  terminating the process.
 
-exit-overlay
+#### exit-overlay
 Command to deregister from the Master/Registry node.
 
 -------------------
